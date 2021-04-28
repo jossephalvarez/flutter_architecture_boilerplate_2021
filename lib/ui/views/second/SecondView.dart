@@ -19,8 +19,13 @@ class SecondView extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      RaisedButton(child: Text("Clear List"), onPressed: () => model.onClearPressed()),
-                      RaisedButton(child: Text("Get List"), onPressed: () => model.onGetPressed()),
+                      Padding(padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(child: Text("Get List"), onPressed: () => model.onGetPressed()),
+                      ),
+                      Padding(padding: const EdgeInsets.all(8.0),
+                        child: ElevatedButton(child: Text("Clear List"), onPressed: () => model.onClearPressed()),
+                      )
+
                     ],
                   ),
                   Expanded(
