@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider_architecture_boilerplate/ui/views/home/home_view.dart';
+import 'package:provider_architecture_boilerplate/ui/views/second/second_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeView(),
+      home: SecondView(),
     );
   }
 }
