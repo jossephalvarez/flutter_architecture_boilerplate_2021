@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider_architecture_boilerplate/di/Locator.dart';
 import 'package:provider_architecture_boilerplate/ui/views/second/second_view.dart';
 
-void main() {
+void main() async {
+  await initializeDI();
   runApp(MyApp());
 }
 
