@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider_architecture_boilerplate/ui/views/startup/startup_viewmodel.dart';
+import 'package:provider_architecture_boilerplate/ui/views/startup/StartupViewModel.dart';
 import 'package:stacked/stacked.dart';
 
 // UI CODE ONLY HERE!!

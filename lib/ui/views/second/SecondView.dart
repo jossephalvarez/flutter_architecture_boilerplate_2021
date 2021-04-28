@@ -1,6 +1,6 @@
-import 'package:provider_architecture_boilerplate/ui/views/second/second_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
+import 'SecondViewModel.dart';
 
 // UI CODE ONLY HERE!!
 class SecondView extends StatelessWidget {

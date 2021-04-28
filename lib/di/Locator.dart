@@ -2,13 +2,10 @@ import 'package:provider_architecture_boilerplate/data/datasource/remote/HttpRem
 import 'package:provider_architecture_boilerplate/data/datasource/remote/Remote.dart';
 import 'package:provider_architecture_boilerplate/data/repository/PoiRepositoryImpl.dart';
 import 'package:provider_architecture_boilerplate/domain/repository/PoiRepository.dart';
-// import 'package:provider_architecture_boilerplate/view/Navigator.dart';
-// import 'package:provider_architecture_boilerplate/view/viewmodel/DetailViewModel.dart';
-// import 'package:provider_architecture_boilerplate/view/viewmodel/ListViewModel.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart' as http;
-import 'package:provider_architecture_boilerplate/ui/views/second/second_viewmodel.dart';
-import 'package:provider_architecture_boilerplate/ui/views/startup/startup_viewmodel.dart';
+import 'package:provider_architecture_boilerplate/ui/views/second/SecondViewModel.dart';
+import 'package:provider_architecture_boilerplate/ui/views/startup/StartupViewModel.dart';
 
 final getIt = GetIt.I;
 
