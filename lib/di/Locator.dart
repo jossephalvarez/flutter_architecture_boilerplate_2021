@@ -25,5 +25,5 @@ void _domain() async {}
 
 void _view() async {
   getIt.registerFactory<StartupViewModel>(() => StartupViewModel());
-  getIt.registerFactory<SecondViewModel>(() => SecondViewModel());
+  getIt.registerFactory<SecondViewModel>(() => SecondViewModel(getIt()));
 }

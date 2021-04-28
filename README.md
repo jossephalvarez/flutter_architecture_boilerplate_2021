@@ -1,20 +1,42 @@
-# provider_architecture_boilerplate
+# BOILERPLATE FLUTTER ARCHITECTURE 
+This project is a boilerplate to start a new flutter project, based on SOLID and CLEAN principles architecture.
 
-A new Flutter project.
+## Patterns
+
+    * MVM( Model View Model)
+    * Repository
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+* flutter run
 
-A few resources to get you started if this is your first Flutter project:
+# FILE STRUCTURE
+The structure of this project is designed by layers, each folder represent a layer to granulate each piece of our code. 
+## data
+Services, connecting with a service using [http dart]
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## di
+Dependency injection using [getIT] package. 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Domain
+## domain
 
 In this folder there are the domain models
+
+## ui
+
+### smart_widgets
+For widgets views or components that can reusable on multiples views
+### views
+Views in general, each view has a folder with :
+
+* view: Represent the view with any logic
+* viewModel: Include the logic of the view and the state.
+
+For viewModels use [stacked] package.
+
+
+[getIt]:<https://pub.dev/packages/get_it>
+[http dart]:<https://pub.dev/packages/http>
+[stacked]:<https://pub.dev/packages/stacked>
+
+
